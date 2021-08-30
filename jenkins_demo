@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'checkout successful'
             }
+            }
              stage('Notification') {
             steps {
                 emailext body: '''Tthanks
